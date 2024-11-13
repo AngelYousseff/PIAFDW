@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japon</title>
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">
+</head>
+<body>
+            <!-- LINKS DE REFERENCIAS PARA LAS PAGINAS -->
+            <nav>
+                <ul>
+                    <li><a href="{% url 'inicio' %}">Inicio</a></li>
+                    <li><a href="{% url 'china' %}">Chino</a></li>
+                    <li><a href="{% url 'arabe' %}">Arabe</a></li>
+                    <li><a href="{% url 'corea' %}">Coreano</a></li>
+                    <li><a href="{% url 'japon' %}">Japones</a></li>
+                    <li><a href="{% url 'hungria' %}">Hungaro</a></li>
+                    <li><a href="{% url 'encuesta' %}">Encuesta</a></li>
+                </ul>
+            </nav>
+    <header>
+        <h1 id="TituloJapones">Idioma Japones</h1>
+        <img width="150px" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWk1cTJ1enJmcWRncWlxbXpldXhqdWp5MzM4ajY3aGhpMzJsZHo3dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d9WkParY0LER4iLquM/giphy.gif" alt="">
+        <p>A continuación mostraremos por qué este idioma es uno de los más complejos para aprender</p>
+    </header>
+    <hr>
+    <main>
+        <h2 id="idrojoclaro2">Razones por las cuales es difícil aprender japones</h2>
+        <ul>
+            <li><strong>Complejidad de los sistemas de escritura:</strong> El japonés utiliza tres sistemas de escritura: kanji, hiragana y katakana. Los kanji son caracteres chinos que pueden tener múltiples lecturas y significados.</li>
+            <li><strong>Gramática:</strong> La estructura gramatical del japonés es muy diferente a la de los idiomas occidentales, con un orden de palabras sujeto-objeto-verbo (SOV).</li>
+            <li><strong>Honoríficos:</strong> El uso de honoríficos y niveles de formalidad en el japonés puede ser complicado, ya que varía según la relación entre los hablantes.</li>
+            <li><strong>Pronunciación:</strong> Aunque la pronunciación del japonés es relativamente sencilla, hay sonidos que no existen en otros idiomas, como el sonido "r" japonés.</li>
+            <li><strong>Vocabulario:</strong> El japonés tiene muchas palabras prestadas del inglés y otros idiomas, pero con pronunciaciones y significados que pueden ser diferentes.</li>
+        </ul>
+    
+        <h2 id="idrojoclaro3">Curiosidades sobre el idioma japones</h2>
+        <ul>
+            <li><strong>Kanji:</strong> Hay más de 2,000 kanji que se usan comúnmente en la vida diaria en Japón.</li>
+            <li><strong>Onomatopeyas:</strong> El japonés tiene una gran cantidad de onomatopeyas que se utilizan en la conversación diaria y en la literatura.</li>
+            <li><strong>Lenguaje de género:</strong> Hay diferencias en el lenguaje utilizado por hombres y mujeres en el japonés, especialmente en el habla informal.</li>
+            <li><strong>Aprendizaje en la escuela:</strong> Los niños japoneses comienzan a aprender kanji desde el primer grado y continúan hasta la secundaria.</li>
+        </ul>
+
+        <div>
+            <h3 id="idcolorvioleta">Información Adicional</h3>
+            <p>El japonés es un idioma fascinante con una rica historia y cultura. Aprender japonés puede abrir muchas puertas en términos de oportunidades culturales y profesionales.</p>
+        </div>
+
+    </main>
+    <hr>
+    <aside>
+        <h2 id="AprendeMas">Aprende mas sobre el idioma</h2>
+
+        <p>A continuacion observa el siguiente video corto sobre ejercicios en japones, puedes practicar si lo deseas, asimismo puedes escuchar como suena el idioma y su pronunciacion</p>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/lIGksil4Z9I?si=zMOz2UJu83yfoR2W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <p>Si quieres aprender el idioma desde 0 entra a este link para abrir el curso de japones, es bastante recomendado, puedes practicar a tu ritmo y es gratis</p>
+        <a href="https://edutin.com/curso-de-Japones" target="_blank">Cursos de japones</a>
+        
+        <p>Si quieres saber tips para tener una mejor introduccion al japones entra aqui</p>
+        <p><a href="https://preply.com/es/blog/guia-para-aprender-japones/" target="_blank">Guia para principiantes de japones</a></p>
+    </aside>
+    <hr>
+    <footer>
+        <p>Todos los derechos reservados 2024 ©</p>
+    </footer>
+</body>
+</html>

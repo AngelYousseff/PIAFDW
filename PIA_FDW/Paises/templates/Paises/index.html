@@ -1,0 +1,105 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Idiomas mas dificiles segun el internet</title>
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">
+</head>
+<body>
+    <!-- LINKS DE REFERENCIAS PARA LAS PAGINAS -->
+    <nav>
+        <ul>
+            <li><a href="{% url 'inicio' %}">Inicio</a></li>
+            <li><a href="{% url 'china' %}">Chino</a></li>
+            <li><a href="{% url 'arabe' %}">Arabe</a></li>
+            <li><a href="{% url 'corea' %}">Coreano</a></li>
+            <li><a href="{% url 'japon' %}">Japones</a></li>
+            <li><a href="{% url 'hungria' %}">Hungaro</a></li>
+            <li><a href="{% url 'encuesta' %}">Encuesta</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 id="Titulo">Top 5 idiomas mas dificiles de aprender segun el internet</h1>
+        <p>En esta pagina te enseñaremos cuales son los 5 idiomas mas dificiles que uno puede aprender segun el internet</p>
+        <p>Puedes entrar a los links para saber mas</p>
+        <img controls width="100" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjdudnZzcDV6NmV1YjJweHYzdjl6amU0MTFocWYwNnB1b2Q0aG5wdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l2Sq2zPVz6FLD6Z5S/giphy.gif"></img>
+    </header>
+
+    <main>
+    </main>
+    <hr>
+    <!-- Tabla comparando los 5 idiomas -->
+    <aside>
+        <ul>
+        <h3 id="curiosidades"><strong>Curiosidades sobre los idiomas</strong></h3>
+        <li>
+            <p>¿Sabías que el chino es el idioma más hablado en el mundo?</p>
+            </li>
+            <li>
+                <p>El árabe tiene más de 12 formas de decir "amor".</p>
+            </li>
+            <li>
+                <p>El japonés utiliza tres sistemas de escritura diferentes: kanji, hiragana y katakana.</p>
+            </li>
+            <li>
+                <p>El coreano tiene un alfabeto único llamado Hangul, creado en el siglo XV.</p>
+            </li>
+            <li>
+                <p>El húngaro es conocido por su compleja gramática y su uso extensivo de sufijos.</p>
+            </li>
+        </ul>
+                <table border="1">
+                    <caption><strong>Comparación de Idiomas 📖</strong></caption>
+                    <tr>
+                        <th>Idioma</th>
+                        <th>Complejidad</th>
+                        <th>Hablantes</th>
+                    </tr>
+                    <tr>
+                        <td>Chino</td>
+                        <td>Alta</td>
+                        <td>1.2 mil millones</td>
+                    </tr>
+                    <tr>
+                        <td>Árabe</td>
+                        <td>Alta</td>
+                        <td>310 millones</td>
+                    </tr>
+                    <tr>
+                        <td>Japonés</td>
+                        <td>Alta</td>
+                        <td>125 millones</td>
+                    </tr>
+                    <tr>
+                        <td>Coreano</td>
+                        <td>Media</td>
+                        <td>77 millones</td>
+                    </tr>
+                    <tr>
+                        <td>Húngaro</td>
+                        <td>Alta</td>
+                        <td>13 millones</td>
+                    </tr>
+                </table>
+    </aside>
+            
+    <hr>
+        <address>
+            <span> <h4>Contactame si lo deseas</h4> </span>
+            <strong>Angel Youssef Treviño Esquivel</strong> <br>
+            Teléfono: +52 81 1234 5678<br>
+            Correo electrónico: <a href="mailto:angel.trevinoesq@uanl.edu.mx">angel.trevinoesq@uanl.edu.mx</a><br>
+            <small>Estoy disponible para su disposicion</small>
+        </address>
+
+        <hr>
+        <!-- Espacio -->
+        <p><abbr title="Facultad de Contaduria Publica y Administración">FACPYA</abbr> <sub> Productions</sub></p>
+        <time datetime="2024-08-24T11:34:00">Pagina hecha el 6 de octubre de 2024</time> <br> <br>
+        Todos los derechos reservados 2024 &copy; 
+    </footer>
+</body>
+</html>

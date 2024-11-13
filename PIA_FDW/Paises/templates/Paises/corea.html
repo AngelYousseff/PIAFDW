@@ -1,0 +1,65 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corea</title>
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">
+</head>
+<body>
+        <!-- LINKS DE REFERENCIAS PARA LAS PAGINAS -->
+        <nav>
+            <ul>
+                <li><a href="{% url 'inicio' %}">Inicio</a></li>
+                <li><a href="{% url 'china' %}">Chino</a></li>
+                <li><a href="{% url 'arabe' %}">Arabe</a></li>
+                <li><a href="{% url 'corea' %}">Coreano</a></li>
+                <li><a href="{% url 'japon' %}">Japones</a></li>
+                <li><a href="{% url 'hungria' %}">Hungaro</a></li>
+                <li><a href="{% url 'encuesta' %}">Encuesta</a></li>
+            </ul>
+        </nav>
+    <header>
+        <h1 id="TituloCoreano">Idioma Coreano</h1>
+        <img width="150px" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3p6bnl5cjEyZHZsNzE2NWNjdHBndDlpZ2pxY2VuNjF4bnZ4amg2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BvEdo6pO84LPKhf47j/giphy.gif" alt="">
+        <p>A continuación mostraremos por qué este idioma es uno de los más complejos para aprender</p>
+    </header>
+    <hr>
+    <main>
+        <h2 id="Ejemplos">Razones por las cuales es difícil aprender coreano</h2>
+        <ul>
+            <li><strong>Complejidad del alfabeto Hangul:</strong> Aunque el alfabeto coreano, Hangul, es lógico y sistemático, puede ser difícil de aprender para los principiantes debido a sus formas únicas y combinaciones de letras.</li>
+            <li><strong>Pronunciación:</strong> El coreano tiene sonidos que no existen en otros idiomas, como las consonantes tensas y las vocales dobles, lo que puede dificultar la pronunciación correcta.</li>
+            <li><strong>Gramática:</strong> La gramática coreana es muy diferente a la de los idiomas occidentales, con un orden de palabras sujeto-objeto-verbo (SOV) y el uso de partículas para indicar las funciones gramaticales.</li>
+            <li><strong>Niveles de formalidad:</strong> El coreano tiene varios niveles de formalidad y honoríficos que deben usarse correctamente según la situación y la relación entre los hablantes.</li>
+            <li><strong>Vocabulario:</strong> El coreano tiene muchas palabras prestadas del chino y del inglés, pero con pronunciaciones y significados que pueden ser diferentes.</li>
+        </ul>
+    
+        <h2 id="idrojoclaro2">Curiosidades sobre el idioma coreano</h2>
+        <ul>
+            <li><strong>Hangul:</strong> El alfabeto Hangul fue creado en el siglo XV por el rey Sejong el Grande y es considerado uno de los sistemas de escritura más eficientes del mundo.</li>
+            <li><strong>Onomatopeyas:</strong> El coreano tiene una gran cantidad de onomatopeyas y palabras miméticas que se utilizan en la conversación diaria y en la literatura.</li>
+            <li><strong>Dialectos:</strong> Aunque el coreano estándar se basa en el dialecto de Seúl, hay varios dialectos regionales en Corea del Sur y Corea del Norte.</li>
+            <li><strong>Aprendizaje en la escuela:</strong> Los niños coreanos comienzan a aprender Hangul desde una edad temprana y continúan estudiando el idioma a lo largo de su educación.</li>
+        </ul>
+    </main>
+    <hr>
+    <aside>
+        <h2 id="AprendeMas">Aprende mas sobre el idioma</h2>
+
+        <p>Aqui hay un video en el cual puedes observar como funciona la gramatica coreana y su pronunciacion</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HDMnqs-JEhM?si=fs-J23F-a1gs7JSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <p>Si quieres aprender como funciona el teclado coreano, entra el siguiente link, tiene un traductor incluido si deseas ver lo que escribes</p>
+        <a href="https://mykeyboard.org/es/coreano/" target="_blank">Teclado Coreano Interactivo</a>
+        
+        <p>Si quieres una guia de como aprender el idioma mas a detalle y especificado, entra aqui</p>
+        <p><a href="https://www.classgap.com/es-mx/blog/guia-aprender-coreano-online" target="_blank">¿Como aprender coreano?</a></p>
+    </aside>
+    <hr>
+    <footer>
+        <p>Todos los derechos reservados 2024 ©</p>
+    </footer>
+</body>
+</html>

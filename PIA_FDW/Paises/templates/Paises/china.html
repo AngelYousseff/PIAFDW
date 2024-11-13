@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China</title>
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">
+</head>
+<body>
+        <!-- LINKS DE REFERENCIAS PARA LAS PAGINAS -->
+        <nav>
+            <ul>
+                <li><a href="{% url 'inicio' %}">Inicio</a></li>
+                <li><a href="{% url 'china' %}">Chino</a></li>
+                <li><a href="{% url 'arabe' %}">Arabe</a></li>
+                <li><a href="{% url 'corea' %}">Coreano</a></li>
+                <li><a href="{% url 'japon' %}">Japones</a></li>
+                <li><a href="{% url 'hungria' %}">Hungaro</a></li>
+                <li><a href="{% url 'encuesta' %}">Encuesta</a></li>
+            </ul>
+        </nav>
+        
+    <header>
+        <h1 id="TituloChino"> Idioma Chino </h1>
+        <figure>
+            <img width="200px" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWhxZWxkcnA4bGtoaDA4bmo3cThtZmJmeTV1OWVydm8xbDhkeGtwcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WT88CLV49Bj2vtgu2O/giphy.gif" alt="">
+        </figure>
+        <p>A continuacion mostraremos porque este idioma son de los mas complejos para aprender</p>
+    </header>
+    <hr>
+    <main>
+        <h2 id="idrojoclaro">Razones por las cuales es dificil</h2>
+        <ul>
+            <li><strong>Complejidad de los caracteres:</strong> El chino tiene miles de caracteres únicos que deben ser memorizados.</li>
+            <li><strong>Tonos:</strong> El idioma chino es tonal, lo que significa que la misma palabra puede tener diferentes significados según el tono utilizado.</li>
+            <li><strong>Gramática:</strong> La gramática del chino es muy diferente a la de los idiomas occidentales, lo que puede ser un desafío para los hablantes nativos de estos idiomas.</li>
+            <li><strong>Pronunciación:</strong> Algunos sonidos en chino no existen en otros idiomas, lo que puede dificultar la pronunciación correcta.</li>
+            <li><strong>Idiomas regionales:</strong> Además del mandarín, hay muchos dialectos regionales en China, lo que añade otra capa de complejidad.</li>
+        </ul>
+
+        <hr>
+
+        <h2 id="idrojoclaro2">Curiosidades sobre china</h2>
+            <ul>
+                <li><strong>Tecnología ancestral:</strong> Los primeros sismógrafos fueron inventados en China alrededor del año 132 d.C. por Zhang Heng.</li>
+                <li><strong>El té:</strong> China es el hogar del té, con una historia de consumo que se remonta a más de 4,000 años. El té verde, negro, blanco y oolong son todos originarios de China.</li>
+                <li><strong>Calendario lunar:</strong> China sigue utilizando el calendario lunar para festivales tradicionales como el Año Nuevo Chino, que es la festividad más importante y celebrada en el país.</li>
+                <li><strong>La Gran Muralla:</strong> Aunque famosa, no todos saben que la Gran Muralla China se extiende por aproximadamente 21,196 kilómetros, una de las estructuras hechas por el hombre más largas del mundo.</li>
+                <li><strong>Descubrimientos e inventos:</strong> Muchos inventos fundamentales como la brújula, la pólvora, el papel y la imprenta se originaron en China y jugaron un papel vital en el desarrollo del mundo moderno.</li>
+            </ul>
+    </main>
+    <hr>
+    <aside>
+        <h2 id="AprendeMas">Aprende mas sobre el idioma</h2>
+        <p>Tomemos de ejemplo este audio, que contiene una conversación, para que tengan una idea de como es la pronunciación en el pais</p>
+
+        <audio controls src="https://www.tuttlepublishing.com/content/docs/9780804840149/LCEx_10-4_2.mp3"></audio>
+
+        <p>Ahora para que tengan una mejor idea, mostramos un video respectivo al lenguaje</p>
+        <iframe width="450" height="315" src="https://www.youtube.com/embed/enOrZzX0NRg?si=wnjNmlYS3d3c-gts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <p>Entra al siguiente link si deseas conocer mas sobre el idioma</p>
+        <blockquote>
+            <p><a href="https://www.ef.com/wwes/aprender-idiomas/chino/" target="_blank">¿Porque deberias de aprender chino?</a></p>
+        </blockquote>
+    </aside>
+    <hr>
+    <footer>
+        <p>Todos los derechos reservados 2024 &copy;</p>
+    </footer>
+</body>
+</html>

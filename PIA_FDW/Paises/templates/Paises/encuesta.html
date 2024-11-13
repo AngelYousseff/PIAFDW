@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">
+</head>
+<body>
+    <!-- LINKS DE REFERENCIAS PARA LAS PAGINAS -->
+    <nav>
+        <ul>
+            <li><a href="{% url 'inicio' %}">Inicio</a></li>
+            <li><a href="{% url 'china' %}">Chino</a></li>
+            <li><a href="{% url 'arabe' %}">Arabe</a></li>
+            <li><a href="{% url 'corea' %}">Coreano</a></li>
+            <li><a href="{% url 'japon' %}">Japones</a></li>
+            <li><a href="{% url 'hungria' %}">Hungaro</a></li>
+            <li><a href="{% url 'encuesta' %}">Encuesta</a></li>
+        </ul>
+    </nav>
+    <h2 id="TituloEncuesta">Encuesta</h2>
+    <img src="https://media1.tenor.com/m/KqRdJDTdI0oAAAAC/application-wife.gif" alt="">
+    <p>Te invitamos a poner tus datos en esta mini encuesta para saber mas de ti y tus preferencias</p>
+
+    <!-- Formulario de Django para enviar los datos a la base de datos -->
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- Aquí estamos renderizando el formulario de Django -->
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>

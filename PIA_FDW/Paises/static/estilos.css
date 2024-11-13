@@ -1,0 +1,83 @@
+.mensaje-exito {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#Titulo{
+    color: fuchsia;
+}
+
+#TituloChino{
+    color:red
+}
+
+#TituloArabe{
+    color:green
+}
+
+#TituloCoreano{
+    color: rgb(121, 171, 171);
+}
+
+#TituloJapones{
+    color: brown;
+}
+
+#TituloEncuesta{
+    color: dodgerblue;
+}
+
+#idrojoclaro{
+    color:lightcoral
+}
+
+#idrojoclaro2{
+    color:indianred
+}
+
+#idrojoclaro3{
+    color: rgb(235, 139, 139);
+}
+
+#idverdeclaro{
+    color:rgb(177, 244, 149)
+}
+
+#idverdeclaro2{
+    color: rgb(85, 168, 76);
+}
+
+#idcolorvioleta{
+    color: violet;
+}
+
+#Ejemplos{
+    color:cornflowerblue
+}
+
+#AprendeMas{
+    color:darkorange;
+}
+
+/* Color para el menu principal */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration:solid; 
+
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+

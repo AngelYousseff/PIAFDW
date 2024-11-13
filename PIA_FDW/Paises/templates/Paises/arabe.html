@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabe</title>
+    <link rel="stylesheet" href="{% static 'estilos.css' %}">
+</head>
+<body>
+    <!-- LINKS DE REFERENCIAS PARA LAS PAGINAS -->
+    <nav>
+        <ul>
+            <li><a href="{% url 'inicio' %}">Inicio</a></li>
+            <li><a href="{% url 'china' %}">Chino</a></li>
+            <li><a href="{% url 'arabe' %}">Arabe</a></li>
+            <li><a href="{% url 'corea' %}">Coreano</a></li>
+            <li><a href="{% url 'japon' %}">Japones</a></li>
+            <li><a href="{% url 'hungria' %}">Hungaro</a></li>
+            <li><a href="{% url 'encuesta' %}">Encuesta</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 id="TituloArabe">Idioma Árabe</h1>
+        <img width="200px" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGtnbjl3NTZuMmR0cngxb2lpZHUxNGxxcTU2dGcxYXA2NW5rbXJyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SMYqFSXUXI8vmzpIU4/giphy.gif" alt="">
+        <p>A continuación mostraremos por qué este idioma es uno de los más complejos para aprender</p>
+    </header>
+    <hr>
+    <main>
+        <h2 id="idverdeclaro">Razones por las cuales es difícil aprender árabe</h2>
+        <ul>
+            <li><strong>Complejidad del alfabeto:</strong> El árabe tiene un alfabeto único con 28 letras, algunas de las cuales cambian de forma según su posición en la palabra.</li>
+            <li><strong>Escritura de derecha a izquierda:</strong> A diferencia de muchos otros idiomas, el árabe se escribe y se lee de derecha a izquierda.</li>
+            <li><strong>Vocalización:</strong> Las vocales cortas no se escriben en textos árabes, lo que puede dificultar la lectura para los principiantes.</li>
+            <li><strong>Gramática:</strong> La gramática árabe es compleja, con un sistema de conjugación de verbos y declinación de sustantivos que puede ser difícil de dominar.</li>
+            <li><strong>Dialectos regionales:</strong> Además del árabe estándar moderno, hay muchos dialectos regionales que pueden variar significativamente entre sí.</li>
+        </ul>
+    
+        <h2 id="idverdeclaro2">Curiosidades sobre el idioma árabe</h2>
+        <ul>
+            <li><strong>Antigüedad:</strong> El árabe es uno de los idiomas más antiguos del mundo, con una rica historia literaria y cultural.</li>
+            <li><strong>Influencia:</strong> Muchas palabras en otros idiomas, especialmente en español, tienen origen árabe debido a la influencia histórica.</li>
+            <li><strong>Caligrafía:</strong> La caligrafía árabe es una forma de arte muy apreciada, con estilos únicos y decorativos.</li>
+            <li><strong>Uso global:</strong> El árabe es el idioma oficial de más de 20 países y es hablado por más de 300 millones de personas en todo el mundo.</li>
+        </ul>
+    </main>
+    <hr>
+    <aside>
+        <h2 id="AprendeMas">Aprende mas sobre el idioma</h2>
+
+        <p>Vean este video sobre una conversación en arabe y tengan una idea de como se escucha y sus pronunciaciones</p>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/NbGLyPNAAG0?si=eT7JeYHSnpoEi3bN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <p>Si estas interesado en ver como funciona un teclado arabe entra en esta pagina</p>
+        <a href="https://www.arabic-keyboard.org/" target="_blank">Teclado Árabe Interactivo</a>
+
+        <p>Si deseas aprender mas a detalle el idioma, dale un vistazo al pdf a continuacion</p>
+        <embed width="500" src="https://ponsidiomas.com/wp-content/uploads/2014/11/arabe_de_cada_dia_fragment.pdf" type="application/pdf">
+
+        <p>Si quieres una guai de como aprender mas rapido el idioma entra aqui</p>
+        <p><a href="https://www.mosalingua.com/es/aprender-arabe-rapidamente/" target="_blank">¿Como aprender arabe rapidamente?</a></p>
+    </aside>
+    <hr>
+    <footer>
+        <p>Todos los derechos reservados 2024 ©</p>
+    </footer>
+</body>
+</html>
